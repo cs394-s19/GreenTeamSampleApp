@@ -132,7 +132,7 @@ class FloatCart extends Component {
             <span className="bag">
               <span className="bag__quantity">{cartTotal.productQuantity}</span>
             </span>
-            <span className="header-title">Cart</span>
+            <span className="header-title">Shopping Cart</span>
           </div>
 
           <div className="float-cart__shelf-container">
@@ -168,7 +168,7 @@ class FloatCart extends Component {
               </small>
             </div>
             <div onClick={() => this.proceedToCheckout()} className="buy-btn">
-              Checkout
+              ORDER
             </div>
           </div>
         </div>

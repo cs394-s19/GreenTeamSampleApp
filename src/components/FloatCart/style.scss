@@ -130,6 +130,10 @@
           text-decoration: line-through;
           opacity: 0.6;
         }
+	
+	.shelf-item__thumb {
+          box-shadow: 3px -1px 10px #eabf00;
+        }
       }
 
       &__del {
